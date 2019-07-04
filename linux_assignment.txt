@@ -1,0 +1,10 @@
+1) egrep -w 'this' first.txt
+   egrep -o 'this' first.txt | wc -l
+
+2) ls *.txt
+
+3) for d in ./aws*/ ; do (cd "$d" && ls); done
+
+4) sed -i 's/this/that/g' first.txt
+
+5) cat s3_info.jason | jq 'Records[0].s3.bucket.arn'

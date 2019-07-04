@@ -1,0 +1,6 @@
+[ec2-user@ip-172-31-43-136 ~]$ crontab -e
+crontab: installing new crontab
+[ec2-user@ip-172-31-43-136 ~]$ crontab -l
+0 14 * * 1-5 /path/to/script.sh
+0 8-20/3 * * * /path/to/script1.sh
+0 0 1-31/2 2-12/2 * /path/to/script2.sh
